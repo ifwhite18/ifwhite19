@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>resume</title>
+	</head>
+	<body>
+		<form id="login" name="login">
+		    <table border="1" cellspacing="0" cellpadding="3" width="380">
+		        <tr><td colspan="2" class="td1"><center>resume</center></td></tr>
+		        <tr><td width="289" class="td2">姓名：</td>
+		            <td width="295" class="td2"><input type="text" id="userid" placeholder="请输入你的姓名..."/></td>
+		        </tr>
+		        <tr><td class="td2">密码：</td>
+		            <td class="td2"><input type="password" id="userkey1" placeholder="请输入你的密码..."/></td>
+		        </tr>
+		        <tr><td class="td2">性别：</td>
+		            <td><input type="radio" name="sex" value="radiobutton"/>男
+		            <input type="radio" name="sex" value="radiobutton"/>女</td>
+		        </tr>
+				<tr><td class="td2">血型：</td>
+				    <td><input type="radio" name="blood" value="radiobutton"/>O
+				    <input type="radio" name="blood" value="radiobutton"/>A
+					<input type="radio" name="blood" value="radiobutton"/>B
+					<input type="radio" name="blood" value="radiobutton"/>AB</td>
+				</tr>
+				<tr>
+					<td class="td2">性格：</td>
+					<td><input type="checkbox" name="nature" value="1">热情大方<br> 
+					<input type="checkbox" name="nature" value="2">温柔体贴<br> 
+					<input type="checkbox" name="nature" value="3">多愁善感</td> 
+				</tr>
+				<tr><td class="td2">文件：</td>
+				    <td> <input type="file" value="浏览文件"> </td>
+				</tr>
+				<tr><td class="td2">简介：</td>
+				    <td> <textarea name="comment" rows="5" cols="40" placeholder="请输入你的简介..."></textarea> </td>
+				</tr>
+				<tr><td class="td2">城市：</td>
+				    <td>
+						<select name="city"> 
+						<option value="">--请选择--</option>
+						<option value="1">北京</option>
+						<option value="3">陕西</option>
+						<option value="4">其他</option>
+						</select>
+					</td>
+				</tr>
+				<td colspan="2" class="td3"><div align="center">
+		            <input id="Button1" type="button" value="提交" onclick="javascript:checkform()" />
+					<input type="reset" value="重置">
+		            </div></td>
+		            </tr>
+		    </table>
+		</form>
+	</body>
+</html>
